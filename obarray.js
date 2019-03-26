@@ -36,7 +36,7 @@ var course ={
 console.log(course[0]);
 console.log(course.teacher[1]);
 console.log(course.student[0]);
-console.log(course.student[1].computer);
+console.log(course.student[1].computer.type);
 console.log(course.preRegs.equipment);
 console.log(course.preRegs.equipment.OSOptions[1]);
 
