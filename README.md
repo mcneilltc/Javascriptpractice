@@ -35,6 +35,15 @@ The string concatenation means puting the strings in an order with functions to 
 The output for 'b' + 'a' + +'a' + 'a' : "baNaNa 
 the b and first a are concatenated. then the next thing you have is ++ 'a' and because ++ is an operator to add to a function/ number it it prints NaN because 'a' is a string not a number. the last a is concatenated at the end.
 
-07-template-literal
+09-slice-parseint
+
+The slice in the method, creates parts out of the string starting with the first part of the array and going to the one right before the specified end of the array.
+The parseInt strings into integeters. The slices of 'ba' 'da' 55 are converted.
+
+style- specifics what attibutes you want to add. In this case two background colors have been included as styles which means they can been used later as a value. Which they are called to be used as class in the <p>.
+class- gives the paragraph the background color of what was specified in the .rgb and .hex in the html.
+
+
+
 | 2019-03-26 | 2 | arrays and objects |
 
