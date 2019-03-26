@@ -43,7 +43,10 @@ The parseInt strings into integeters. The slices of 'ba' 'da' 55 are converted.
 style- specifics what attibutes you want to add. In this case two background colors have been included as styles which means they can been used later as a value. Which they are called to be used as class in the <p>.
 class- gives the paragraph the background color of what was specified in the .rgb and .hex in the html.
 
-
+19-switch
+1st switch statement is unitInput
+2nd switch statement is unitOutput
+template literals in the formattedInput and formattedOutput listed as ${temperature}, ${temperatureInput}, ${temperatureOutput}
 
 | 2019-03-26 | 2 | arrays and objects |
 
