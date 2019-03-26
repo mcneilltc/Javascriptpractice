@@ -28,8 +28,13 @@ add another prompt to be able to get the option to add another value. Or refresh
 prompt(temperatureF);
 you can add another constant and define it within the same parameters to output.
 
+06 string concatenation
 
+The string concatenation means puting the strings in an order with functions to form a sentence that can be easily read.
 
+The output for 'b' + 'a' + +'a' + 'a' : "baNaNa 
+the b and first a are concatenated. then the next thing you have is ++ 'a' and because ++ is an operator to add to a function/ number it it prints NaN because 'a' is a string not a number. the last a is concatenated at the end.
 
+07-template-literal
 | 2019-03-26 | 2 | arrays and objects |
 
