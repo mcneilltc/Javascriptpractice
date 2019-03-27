@@ -25,6 +25,6 @@ for (let i = 0; i < examples.length; i += 1) {
 //  console.log(getFixed(example, n), example);
 //} else{console.log(getString(example, n), example);}
  
-console.log (getFixed.length < getString.length ? (getFixed(example,n), example) : (getString(example,n), example));
+console.log (getFixed.length < getString.length ? getFixed(example,n) : getString(example,n));
 
 }

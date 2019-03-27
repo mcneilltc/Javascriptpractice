@@ -7,6 +7,9 @@ const getFixed = (coordinate, nDigits) => {
   const gotString = coordinate.toString();
 
   // TODO return shorter string with ternary expression
+  
+
+return (gotFixed.length > gotString.length ? gotFixed:gotString);
 };
 
 const examples = [
@@ -16,9 +19,11 @@ const examples = [
   29 / 63,
 ];
 
-const n = 3;
+const n = 5;
 
 for (let i = 0; i < examples.length; i += 1) {
   const example = examples[i];
   console.log(getFixed(example, n), example);
 }
+
+
