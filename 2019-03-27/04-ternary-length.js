@@ -21,4 +21,10 @@ for (let i = 0; i < examples.length; i += 1) {
   // TODO initialize gotFixed for n digits
   // TODO initialize gotString
   // TODO within one console.log statement use ternary to output shorter string
+ //if(getFixed.length<getString.length){
+//  console.log(getFixed(example, n), example);
+//} else{console.log(getString(example, n), example);}
+ 
+console.log (getFixed.length < getString.length ? (getFixed(example,n), example) : (getString(example,n), example));
+
 }

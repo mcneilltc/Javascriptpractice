@@ -13,3 +13,4 @@ for (let i = 0; i < examples.length; i += 1) {
   const example = examples[i];
   console.log(getFixed3(example), example);
 }
+// coordinate is linked to the gitfixed
