@@ -23,3 +23,12 @@ Update: create another const to display the cards that were cut before the cards
 check
 08-string split
 
+09-array includes
+ diff b/w process.argv[2] and process.argv.slice(2)- The slice returns and empty array vs the .argv[2] returning an undefined. But in each all the card are still displayed. The .argv.slice also add a new card to the array. This means that the card gets included in the array.
+ When console.log for the options and you check for a card not in the array it returns false, with the use of argv.slice(2). With the .argv[2] the function can't process
+
+ 10-destucturing
+ when adding z to the const, the value cannot be defined because the point has not been defined in the const point. There would have to be another value added in order for z to be true. the constant z needs to then be initialized in the console.log. (tested adding z and the program could not be initialized).
+ with the [x,y]=[y,x] it means that the values of each variable will stay the same no matter the location within the array.
+
+11-objects
