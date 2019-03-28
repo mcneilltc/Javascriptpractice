@@ -15,3 +15,11 @@ The push after to concate changes the results. the push, changes the arragements
 If you add a console.log(.reverse(index)); then we should be able to change the order of the cards.
 
 To change the order of the cards displayed for cards after the cut to the cards before the cut, change the placement of the console.log for the cut cards. You can log the cards that were cut.
+Update: create another const to display the cards that were cut before the cards that weren't cut.
+
+05-array spread
+06-indexOf
+07-array-join
+check
+08-string split
+
