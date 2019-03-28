@@ -36,3 +36,9 @@ COME BACK to this point
 
 12-destructuring
 
+13-mutate
+To change the original values of something
+14- assign
+
+15- spread
+

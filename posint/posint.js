@@ -6,6 +6,7 @@
 ​
 function sumTwoSmallestNumbers(numbers) {
 // code here
+
 }
 ​
 console.log(sumTwoSmallestNumbers([19,5,42,2,77])); // should return 7
